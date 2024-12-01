@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ My Authentic Notes ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>✨ My Authentic Notes ✨</h1>
+        <p id="quote">Write your ideas in the purest form.</p>
+        
+        <div class="note-input">
+            <textarea id="note-content" placeholder="Write your note here..."></textarea>
+            <button id="add-note">Add Note</button>
+            <button id="voice-note">🎙️ Record Voice Note</button>
+        </div>
+
+        <div class="notes-actions">
+            <button id="clear-notes">Clear All Notes</button>
+        </div>
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search notes..." />
+          <button id="search-button">🔍 Search</button>
+      </div>      
+        <div class="notes-list">
+            <h2>Your Notes 📒</h2>
+            <ul id="notes-container"></ul>
+        </div>
+
+        <button id="toggle-theme">Switch to Dark Mode</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
